@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  findmydockermachineip:
+    image: findmydockermachineip
+    build:
+      context: .
+      dockerfile: ./Dockerfile
